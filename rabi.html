@@ -1,86 +1,35 @@
 <!DOCTYPE html>
 <html>
 <title>
-Time Table
+Table 2
 </title>
+<body>
 <style>
 table,tr,th,td{
-border:2px solid black;
-border-collapse:collapse;
-height:60px;
-width:1200px;
+border:2px solid red;
+height:70px;
+width:400px;
 text-align:center;
-}
+border-collapse:collapse;}
 </style>
-<body>
 <table>
 <tr>
-<th>Day</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
+</tr>
+<td rowspan="5">Span rows</td>
+<td colspan="3">Span column</td>
 </tr>
 <tr>
-<td>Day 1</td>
-<td>python</td>
-<td>tamil</td>
-<td>english</td>
-<td>maths</td>
-<td>hr</td>
-<td>Placement</td>
+<td colspan="2">Span column</td>
+<td rowspan="4">Span both</td>
 </tr>
-</tr>
+<td roespan="3">Span rows</td>
+<td>span colunmns</td>
 <tr>
-<td>Day 2</td>
-<td>Maths</td>
-<td>tamil</td>
-<td>ML</td>
-<td>Placement</td>
-<td>English</td>
-<td>Python</td>
-</tr>
-</tr>
-<tr>
-<td>Day 3</td>
-<td>maths</td>
-<td>tamil</td>
-<td>english</td>
-<td>placement</td>
-<td>Ml</td>
-<td>python</td>
-</tr>
-</tr>
-<tr>
-<td>Day 4</td>
-<td>placement</td>
-<td>tamil</td>
-<td>english</td>
-<td>python</td>
-<td>maths</td>
-<td>ML</td>
-</tr>
-</tr>
-<tr>
-<td>Day 5</td>
-<td>english</td>
-<td>tamil</td>
-<td>python</td>
-<td>maths</td>
-<td>ML</td>
-<td>Placement</td>
-</tr>
-<tr>
-<td>Day 6</td>
-<td>english</td>
-<td>maths</td>
-<td>placement</td>
-<td>maths</td>
-<td>ML</td>
-<td>python</td>
-</tr>
-</table>
+<td rowspan="2">Span both</td>
 </body>
 </html>
+
